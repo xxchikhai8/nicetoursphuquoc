@@ -46,14 +46,53 @@ footer {
 
 .banner-text {
     position: absolute;
-    bottom: 0;
-    background-color: rgba(141, 249, 255, 0.8);
+    bottom: 5rem;
+    background-color: rgba(34, 227, 30, 0.8);
     color: rgb(255, 255, 255);
     font-size: 3rem;
     text-align: right;
+    height: 6rem;
     width: 100%;
-    font-family: "Great Vibes";
-    padding-right: 10rem;
+    font-family: 'Great Vibes';
+    font-weight: 600;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+.banner-slogan {
+    position: absolute;
+    bottom: 0rem;
+    height: 5rem;
+    background-color: #a8ff94cc;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 1rem;
+    font-family: "Dancing Script" !important;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.no-wrap {
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+}
+
+@media only screen and (max-width: 550px) {
+    .banner-text {
+        height: 11rem;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .banner-text {
+        padding-right: 8rem !important;
+    }
+
+    .banner-slogan {
+        padding-right: 8rem !important;
+    }
 }
 
 .about {

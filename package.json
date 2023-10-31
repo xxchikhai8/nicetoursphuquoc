@@ -16,6 +16,8 @@
         "postcss": "^8.1.14"
     },
     "dependencies": {
-        "@fontsource/great-vibes": "^5.0.17"
+        "@fontsource/dancing-script": "^5.0.15",
+        "@fontsource/great-vibes": "^5.0.17",
+        "agbalumo": "^0.0.1"
     }
 }

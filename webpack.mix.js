@@ -12,6 +12,6 @@ const mix = require('laravel-mix');
  */
 
  mix.css('resources/css/style.css', 'public/assets/css/style.css').version();
+ mix.css('resources/css/font.css', 'public/assets/css/style.css').version();
  mix.postCss('resources/css/app.css', 'public/assets/css/app.css').version();
 
- mix.js('resource/js/app.js', 'public/assets/js/app.js').version();
