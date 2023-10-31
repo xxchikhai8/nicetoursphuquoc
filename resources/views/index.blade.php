@@ -2,10 +2,10 @@
 @section('content')
 @section('title', "Home")
 <section class="panel header" id="home">
-
+    <div class="banner-text">Welcome to Phu Quoc Island!</div>
 </section>
 <section class="panel about" id="about">
-    <h1>About</h1>
+    <h1></h1>
 </section>
 <section class="panel tours" id='our-tours'>
     <h1>Our Tours</h1>

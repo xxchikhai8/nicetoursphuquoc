@@ -37,7 +37,23 @@ footer {
 }
 
 .header {
-    background-color: aquamarine;
+    position: relative;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(141, 249, 255, 0.8);
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-align: right;
+    width: 100%;
+    font-family: "Great Vibes";
+    padding-right: 10rem;
 }
 
 .about {
